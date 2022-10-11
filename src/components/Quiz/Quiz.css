@@ -1,8 +1,9 @@
+
 .quiz{
     margin: 40px auto;
     border: 2px solid rgb(209, 209, 205);
     border-radius: 5px;
-    height: 310px;
+    height: 315px;
     width: 260px;
 }
 .quiz img{
