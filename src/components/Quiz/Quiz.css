@@ -1,0 +1,22 @@
+.quiz{
+    margin: 40px auto;
+    border: 2px solid rgb(209, 209, 205);
+    border-radius: 5px;
+    height: 310px;
+    width: 260px;
+}
+.quiz img{
+    background-color: rgb(237, 239, 239);
+    height: 250px;
+}
+.quiz-cart{
+    display: flex;
+    justify-content: space-between;
+    margin: 13px 4px 0;
+}
+.quiz-cart button{
+    border: none;
+    border-radius: 6px;
+    background-color: blue;
+    color: white;
+}
