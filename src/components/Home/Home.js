@@ -7,7 +7,6 @@ import './Home.css'
 
 const Home = () => {
     const quizzes = useLoaderData()
-    console.log(quizzes.data)
     return (
         <div>
             
