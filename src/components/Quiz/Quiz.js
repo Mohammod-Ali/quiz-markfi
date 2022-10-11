@@ -10,7 +10,7 @@ const Quiz = ({quiz}) => {
             <div className='quiz-cart'>
                 <h5>{name}</h5>
                 <p><small>Quiz: {total}</small></p>
-                <Link to={`/quiz/${id}`}><button>Start Quiz</button></Link>
+                <button><Link to={`/quiz/${id}`}>Start Quiz</Link></button>
             </div>
         </div>
     );
