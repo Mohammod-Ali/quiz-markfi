@@ -16,4 +16,7 @@
    .header{
     flex-direction: column;
    }
+   .header-link a{
+    margin: 15px;
+}
 }
