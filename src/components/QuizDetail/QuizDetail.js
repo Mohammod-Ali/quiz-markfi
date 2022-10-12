@@ -6,7 +6,6 @@ import "react-toastify/dist/ReactToastify.css";
 
 const QuizDetail = ({ quiz }) => {
   const { question, options, correctAnswer } = quiz;
-  console.log(quiz);
   const quizHandler = (correctOption) => {
     console.log(correctOption);
     if (correctAnswer === correctOption) {
