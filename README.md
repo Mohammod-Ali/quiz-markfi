@@ -1,10 +1,14 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project [LIVE LINK:](https://quiz-markfi.netlify.app/).
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+1. You can check your knowledge in this site.
+2. You can build your knowledge in JavaScript, CSS, Git and React.
+3. When you click the right answer of the quiz you get a toast massage 'Congratulations'.
+4. when you click the wrong answer you get a toast message 'Wrong Answer'
+5. You can read bloags for your knowledge on Blogs route.
 
 ### `npm start`
 
