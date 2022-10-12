@@ -37,11 +37,12 @@ function App() {
           loader: ({params}) => fetch(`https://openapi.programming-hero.com/api/quiz/${params.quizId}`),
           element: <QuizDetails></QuizDetails>
         },
-        {
-          path: '*',
-          element: <NotFound></NotFound>
-        }
+        
       ]
+    },
+    {
+      path: '*',
+      element: <NotFound></NotFound>
     }
   ])
   return (
