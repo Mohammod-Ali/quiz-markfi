@@ -4,3 +4,12 @@
     margin: 35px;
     padding: 25px;
 }
+.icon{
+    display: flex;
+    justify-content: space-around;
+}
+.icon svg {
+    color: blue;
+    width: 30px;
+    cursor: pointer;
+}
